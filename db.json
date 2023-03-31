@@ -1,0 +1,48 @@
+{
+  "productList": [
+    {
+      "productName": "sada",
+      "category": "Vegetables",
+      "date": "2023-04-03T18:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 1231,
+      "comment": "dasda",
+      "id": 1
+    },
+    {
+      "productName": "Iphone 14",
+      "category": "Electronics",
+      "date": "2016-06-06T18:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 140000,
+      "comment": "No Scratch",
+      "id": 2
+    },
+    {
+      "productName": "Macbook",
+      "category": "Electronics",
+      "date": "2023-02-01T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 150000,
+      "comment": "Macbook pro 13\" ",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
