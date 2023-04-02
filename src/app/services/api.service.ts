@@ -15,4 +15,10 @@ export class ApiService {
   getProduct(){
     return this.http.get<any>(`${environment.baseUrl}/productList/`);
   }
+  putProduct(data: any, id: number) {
+    return this.http.put<any>(`${environment.baseUrl}/productList/`+id,data);
+  }
+  deleteProduct(id:number) {
+    return this.http.delete<any>(`${environment.baseUrl}/productList/`+id);
+  }
 }
